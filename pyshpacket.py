@@ -83,6 +83,6 @@ except:
     shutil.rmtree('packetdir')
     os.mkdir('packetdir')
     os.chdir('packetdir')
-while True:
+if __NAME__ == "__MAIN__":
     mainstream(cntr)
         
